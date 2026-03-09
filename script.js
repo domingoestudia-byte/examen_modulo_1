@@ -1,9 +1,18 @@
 let productos = [200,150,300,120,500]
 
-// let menorProducto = productos.splice(0,3)
+
+let menorProducto=[]
+
+menorProducto.forEach(n=> {
+    if (n== 120){
+        menorProducto.splice(n)
+    }
+    else{menorProducto.push(n)}
+})
 
 
-// console.log(menorProducto)
+
+console.log(menorProducto)
 
 productos.unshift(1000)
 
